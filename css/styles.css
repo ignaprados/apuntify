@@ -826,6 +826,9 @@ hr {
     transform: translate(150px, 0);
     justify-content: flex-start !important;
   }
+  #logo {
+    left: -150px !important;
+  }
 }
 
 @media screen and (max-width: 1190px) {

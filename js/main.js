@@ -29,7 +29,7 @@ $(document).ready(function () {
   // Logo anchor tag
   $(document).ready(function () {
     $("#logo").click(function () {
-      window.location.href = "/community";
+      window.location.href = "";
     });
   });
   

@@ -17,7 +17,7 @@
 
         gtag('config', 'G-4PRCVHN74N');
     </script>
-    {% load static %}
+    
     <title>Apuntify &#8212; Resúmenes para estudiantes</title>
     <meta name="title" content="Apuntify &#8212; Resúmenes para estudiantes">
     <meta name="description" content="Encontrá los apuntes que necesitas.">
@@ -54,6 +54,7 @@
 
 
 <body>
+  {% load static %}
     <div id="logo">
         <img src="/assets/logo.png" alt="logo Apuntify">
     </div>
@@ -67,12 +68,6 @@
     <div id="unlock">
         <a id="in-out" style="text-decoration: line-through !important;">Iniciar sesión</a>
     </div>
-    <!--
-    <div class="userinfo">
-        <p>{{user.username}}</p>
-        <a id="log" href="/logout">Logout</a>
-    </div>-->
-    {% endif %}
 
     <h1 class="main-tittle-text">Apuntify se despide, <br> ya no está <span class="shine">disponible</span>.</h1>
     <h2>Gracias a todos los que fueron parte de esta comunidad!</h2>    
